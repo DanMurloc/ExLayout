@@ -1,6 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:text="India"
+            android:textColor="@color/black"
+            android:layout_column="1"
+            android:padding="10sp">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:text="England"
+            android:layout_column="2"
+            android:textColor="@color/black"
+            android:padding="10sp">
+        </TextView>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:padding="10sp"
+            android:textColor="@color/black"
+            android:layout_column="0"
+            android:text="1 st innings">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:padding="10sp"
+            android:layout_column="1"
+            android:text="212">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:padding="10sp"
+            android:layout_column="2"
+            android:text="704">
+        </TextView>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10sp"
+            android:textColor="@color/black"
+            android:layout_column="0"
+
+            android:text="2nd innings">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:padding="10sp"
+            android:layout_column="1"
+            android:text="134">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10sp"
+            android:layout_column="2"
+
+            android:text="563">
+        </TextView>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Menu"
+            android:layout_column="1"
+            android:onClick="loadMenuLayout">
+
+        </Button>
+    </TableRow>
+
+</TableLayout>
